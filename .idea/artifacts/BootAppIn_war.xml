@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="BootAppIn:war">
+    <output-path>$PROJECT_DIR$/BootAppIn-22-04-2018/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>BootAppIn</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="BootAppIn-1.0.war">
+      <element id="artifact" artifact-name="BootAppIn:war exploded" />
+    </root>
+  </artifact>
+</component>
